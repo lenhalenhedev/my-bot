@@ -1,0 +1,22 @@
+{
+  "name": "open source bot",
+  "version": "3.0.0",
+  "description": "Bot Minecraft",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mineflayer"
+  ],
+  "author": "Drew",
+  "license": "GPL v3",
+  "dependencies": {
+    "mineflayer": "^4.33.0",
+    "winston": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

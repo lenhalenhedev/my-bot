@@ -1,0 +1,57 @@
+{
+  "server": {
+    "host": "nl-01.freezehost.pro",
+    "port":  10610,
+    "version": "1.21",
+    "auth": "offline"
+  },
+  "bot": {
+    "baseUsername": "Administrator",
+    "password": "Password123"
+  },
+  "features": {
+    "autoReconnect": {
+      "enabled": true,
+      "delay": 10000,
+      "maxDelay": 120000
+    },
+    "randomUsernameOnKick": {
+      "enabled": false,
+      "length": 4
+    },
+    "smartAntiAfk": {
+      "enabled": true,
+      "minInterval": 2000,
+      "maxInterval": 15000,
+      "actions": {
+        "rotateToEntity": true,
+        "walkSafe": true,
+        "jump": true,
+        "swingArm": true,
+        "switchHotbar": true,
+        "sneak": true
+      }
+    },
+    "autoChat": {
+      "enabled": false,
+      "interval": 300000,
+      "addRandomSuffix": true,
+      "messages": [
+        "Hello guy",
+        "chủ server bị gay",
+        "anh em nhớ đăng kí kênh ủng hộ thịnh nhé!",
+        "AFK đẳng cấp nhấ việt nam",
+        "bot deverloped by Thinh"
+      ]
+    },
+    "autoRespawn": {
+      "enabled": true
+    },
+    "autoAcceptResourcePack": {
+      "enabled": true
+    },
+    "autoCloseWindows": {
+      "enabled": true
+    }
+  }
+}
