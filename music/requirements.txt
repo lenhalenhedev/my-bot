@@ -1,0 +1,12 @@
+discord.py
+py-cord
+nextcord
+disnake
+interactions.py
+python-dotenv
+aiohttp
+requests
+PyNaCl
+ffmpeg-python
+youtube-dl
+yt-dlp
